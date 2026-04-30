@@ -62,3 +62,23 @@ int main() {
 
 MIT
 
+## Result screenshots
+
+![cpp-mobile-robot-kinematics result screenshot](docs/results/result-screenshot.png)
+
+Kinematic trajectory snapshot for differential, mecanum, and Ackermann-style motion.
+
+
+## What this demonstrates
+
+- Modern C++ implementations of common planar mobile-robot kinematics.
+- Explicit units, frames, and pose integration suitable for control or simulation glue.
+- A small library layout with examples and dependency-free tests.
+
+
+## Limitations and next steps
+
+- The models are kinematic and do not include dynamics, slip, or actuator saturation.
+- The examples are numerical demonstrations rather than ROS controllers.
+- Next steps: add ROS 2 adapter examples and compare against simulated vehicle traces.
+
