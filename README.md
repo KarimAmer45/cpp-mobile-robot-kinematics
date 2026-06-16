@@ -65,7 +65,7 @@ MIT
 
 ---
 
-## Benchmarks (Live — May 2026)
+## Benchmarks
 
 Compiled with `g++ -std=c++17 -O2`. All results from 5,000,000-iteration micro-benchmarks; process noise eliminated by `volatile` sink.
 
